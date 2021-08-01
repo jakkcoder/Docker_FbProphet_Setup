@@ -16,8 +16,8 @@ https://hub.docker.com/r/wajdikh/fbprophet
     c. fbprophet : 0.5<p>
     d. jupyterlab : 3.1.1<p>
     e. plotly :5.1.0
-  2. Once the run complete's start container environment with <p> docker run -itd -p 80:80 fbprophet <p>
-    This will start the jupyterlab on <p> http://localhost:80/lab <p> else on the <p>"server_ip":80/lab<p>
+  2. Once the run complete's start container environment with <p> docker run -itd -p 8085:8085 fbprophet <p>
+    This will start the jupyterlab on <p> http://localhost:8085/lab <p> else on the <p>"server_ip":8085/lab<p>
   3. Get the container name by <p>
     docker ps <p>
   4. you can check the tocken using <p>
