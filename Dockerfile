@@ -1,7 +1,7 @@
 FROM wajdikh/fbprophet:latest
 
-EXPOSE 8889
-EXPOSE 8888
+EXPOSE 8080
+EXPOSE 8081
 
 RUN pip install jupyterlab==3.1.1
 RUN pip install plotly==5.1.0
