@@ -16,7 +16,7 @@ https://hub.docker.com/r/wajdikh/fbprophet
     c. fbprophet : 0.5<p>
     d. jupyterlab : 3.1.1<p>
     e. plotly :5.1.0
-  2. Once the run complete's start container environment with <p> docker run -itd -p 8080:8080 fbprophet <p>
+  2. Once the run complete's start container environment with <p> docker run -itd -p 8888:8888 fbprophet <p>
     This will start the jupyterlab on <p> http://localhost:8888/lab <p> else on the <p>"server_ip":8080/lab<p>
   3. Get the container name by <p>
     docker ps <p>
